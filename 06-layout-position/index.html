@@ -9,28 +9,72 @@
   </head>
   <body>
     <!-- Positioning -->
-
+    <div class="relative w-1/2 h-12 bg-red-200">
+      <p>Parent Element</p>
+      <div class="absolute bottom-0 right-0 bg-red-500">Absolute Child</div>
+    </div>
+    <br>
     <!-- Top left corner -->
-
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute left-0 top-0 h-16 w-16 bg-yellow-300">Top left</div>
+    </div>
+    <br>
     <!-- Top right corner -->
-
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute right-0 top-0 h-16 w-16 bg-yellow-300">Top right</div>
+    </div>
+    <br>
     <!-- Bottom left corner -->
-
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute left-0 bottom-0 h-16 w-16 bg-yellow-300">Bottom left</div>
+    </div>
+    <br>
     <!-- Bottom right corner -->
-
+    <div class="relative h-32 w-32 bg-yellow-100">
+      <div class="absolute right-0 bottom-0 h-16 w-16 bg-yellow-300">Bottom right</div>
+    </div>
+    <br>
     <!-- Span top edge -->
-
-    <!-- Span left edge -->
-
-    <!-- Span right edge -->
-
+    <div class="relative h-32 w-32 bg-pink-100">
+      <div class="absolute inset-x-0 top-0 h-16 bg-pink-300">Span top</div>
+    </div>
+    <br>
     <!-- Span bottom edge -->
-
+    <div class="relative h-32 w-32 bg-pink-100">
+      <div class="absolute inset-x-0 bottom-0 h-16 bg-pink-300">Span bottom</div>
+    </div>
+    <br>
+    <!-- Span left edge -->
+    <div class="relative h-32 w-32 bg-pink-100">
+      <div class="absolute inset-y-0 left-0 w-16 bg-pink-300">Span left</div>
+    </div>
+    <br>
+    <!-- Span right edge -->
+    <div class="relative h-32 w-32 bg-pink-100">
+      <div class="absolute inset-y-0 right-0 w-16 bg-pink-300">Span right</div>
+    </div>
+    <br>
     <!-- Display Classes -->
-
+    <div>
+      Lorem ipsum, dolor sit amet <span class="inline bg-orange-100">This is inline</span> adipisicing elit. Natus ullam aspernatur sed temporibus laudantium tempora quam optio doloribus sint, nam explicabo officiis repellat tenetur autem at consequatur qui aliquam voluptatum sapiente, aut quo iste. Ex ullam, veritatis ut quae <span class="inline-block bg-orange-300">This is inline-block</span> dicta corrupti veniam sit, dolore eum hic <span class="block bg-orange-500">This is block</span>inventore, delectus sed odio voluptatum? Ea illum officia nam libero <span class="hidden bg-orange-700">This is hidden</span>voluptatibus?
+    </div>
+    <br>
     <!-- Z-Index -->
-
+    <div class="relative h-36">
+      <div class="absolute left-0 w-24 h-24 bg-blue-100 z-30">z-30</div>
+      <div class="absolute left-20 top-5 w-24 h-24 bg-blue-300">z-0</div>
+      <div class="absolute left-40 top-10 w-24 h-24 bg-blue-500 z-30">z-30</div>
+      <div class="absolute left-60 top-16 w-24 h-24 bg-blue-700 z-20">z-20</div>
+      <div class="absolute left-80 top-20 w-24 h-24 bg-blue-900 z-40">z-40</div>
+    </div>
+    <br>
+    <br>
+    <br>
     <!-- Floats -->
+    <div class="w-1/2">
+      <img class="h=48 w-48 m-4 float-left" src="../assets/img/img1.jpg" alt="img">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam numquam rerum optio voluptatem cum commodi consectetur minima qui voluptas. At id nostrum esse excepturi. Deserunt, minima. Beatae debitis officiis et!</p>
+    </div>
   </body>
 </html>
 
